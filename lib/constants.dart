@@ -6,6 +6,30 @@ const kLabelTextStyle = TextStyle(
 );
 
 const kFatFont = TextStyle(fontSize: 50.0, fontWeight: FontWeight.w900);
+const kBottomContainerFont = TextStyle(
+  fontSize: 25.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kTitleTextStyle = TextStyle(
+  fontWeight: FontWeight.bold,
+  fontSize: 50.0,
+);
+
+const kResultTextStyle = TextStyle(
+  color: Color(0xFF24D876),
+  fontSize: 22.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kBMIResultStyle = TextStyle(
+  fontWeight: FontWeight.bold,
+  fontSize: 100.0,
+);
+
+const kBodyTextStyle = TextStyle(
+  fontSize: 22.0,
+);
 
 const kBottomContainerHeight = 80.0;
 const kBottomContainerColor = Color(0xFFEB1555);

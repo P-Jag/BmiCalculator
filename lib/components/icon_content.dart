@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'constants.dart';
+import '../constants.dart';
 
 class IconContent extends StatelessWidget {
   final IconData contentIcon;
   final String contentText;
 
-  IconContent(@required this.contentIcon, this.contentText);
+  IconContent(this.contentIcon, this.contentText);
 
   @override
   Widget build(BuildContext context) {
